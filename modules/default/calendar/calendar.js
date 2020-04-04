@@ -15,7 +15,7 @@ Module.register("calendar", {
 		maximumNumberOfDays: 365,
 		displaySymbol: true,
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
-		showLocation: false,
+		showLocation: true,
 		displayRepeatingCountTitle: false,
 		defaultRepeatingCountTitle: "",
 		maxTitleLength: 25,
@@ -34,7 +34,7 @@ Module.register("calendar", {
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
 		hideOngoing: false,
-		colored: false,
+		colored: true,
 		coloredSymbolOnly: false,
 		tableClass: "small",
 		calendars: [
